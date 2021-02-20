@@ -21,6 +21,5 @@ The analog joystick will be connected to the ADC of the discovery board and the 
 
 ## Goals
 Control each individual LED on the matrix
-Decode chess move notation into something the microcontroller can understand
 Write the actual tetris code in C
 Correctly read values from joystick registers
