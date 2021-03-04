@@ -23,3 +23,10 @@ The analog joystick will be connected to the ADC of the discovery board and the 
 Control each individual LED on the matrix
 Write the actual tetris code in C
 Correctly read values from joystick registers
+
+
+## Progress
+- Both X and Y directions of the joystick have been connected to the ADC
+- Successfully enabled SPI communication with MAX 7219 display driver
+- Enabled UART bluetooth communication with termite
+- Success with controlling single dot across LED matrix using the joystick
