@@ -30,3 +30,5 @@ Correctly read values from joystick registers
 - Successfully enabled SPI communication with MAX 7219 display driver
 - Enabled UART bluetooth communication with termite
 - Success with controlling single dot across LED matrix using the joystick
+- Created model for 5 different blocks
+- Simulated falling block effect
