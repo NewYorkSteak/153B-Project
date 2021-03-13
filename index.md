@@ -30,5 +30,8 @@ Correctly read values from joystick registers
 - Successfully enabled SPI communication with MAX 7219 display driver
 - Enabled UART bluetooth communication with termite
 - Success with controlling single dot across LED matrix using the joystick
-- Created model for 5 different blocks
+- Created model for 4 different blocks
 - Simulated falling block effect
+- Functional tetris game using only one type of block
+- Pseudorandom number generator function to pick differenet blocks
+- Allowed different blocks to be spawned in rather than the same blocks
