@@ -34,4 +34,4 @@ Correctly read values from joystick registers
 - Simulated falling block effect
 - Functional tetris game using only one type of block
 - Pseudorandom number generator function to pick differenet blocks
-- Allowed different blocks to be spawned in rather than the same blocks
+- Allowed different blocks to be spawned in the same game
