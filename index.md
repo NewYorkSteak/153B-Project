@@ -1,3 +1,4 @@
+
 ## Modern Tetris
 
 Will be updated as future progress continues.
@@ -37,3 +38,4 @@ Correctly read values from joystick registers
 - Scrapped blancing game since SPI is already used to communicate with the LED matrix
 
 video: https://www.youtube.com/embed/P83yBElAfKI
+- I don't know why this isn't a clickable link, I'm sory
