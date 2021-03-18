@@ -15,7 +15,7 @@ This project will use an 8x8 LED matrix with an external analog joystick to simu
 ## Used protocols: UART & SPI
 
 ## Design
-The analog joystick will be connected to the ADC of the discovery board and the ADC will convert analog movement into something the LED matrix can understand. ie moving the joystick right will move an LED to the right and when in resting position, will make the block fall. The up function on the _onboard joystick_ will be used to force to block to fall all the way it can without waiting. This will be done via interrupt.
+The analog joystick will be connected to the ADC of the discovery board and the ADC will convert analog movement into something the LED matrix can understand. ie moving the joystick right will move an LED to the right and when in resting position, will make the block fall. The up function on the _onboard joystick_ will be used to skip ahead in the block queue. This will be done via interrupt.
 
 ## Goals
 Control each individual LED on the matrix
@@ -35,3 +35,5 @@ Correctly read values from joystick registers
 - Allowed different blocks to be spawned in the same game
 - Bottom row correctly clears when it is full and shifts above rows down by 1
 - Scrapped blancing game since SPI is already used to communicate with the LED matrix
+
+video: https://www.youtube.com/embed/P83yBElAfKI
